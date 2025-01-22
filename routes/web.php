@@ -45,3 +45,6 @@ Route::get('complaints/{id}/download-file', [ComplaintController::class, 'downlo
 Route::get('/login', [AuthController::class, 'create'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('auth.login');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('/', function (){
+    return view('welcome');
+});

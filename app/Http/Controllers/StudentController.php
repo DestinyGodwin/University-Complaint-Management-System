@@ -35,11 +35,11 @@ class StudentController extends Controller
         // Define a mapping between categories and departments
         $categoryDepartmentMapping = [
             'Accommodation' => 'Housing',
-            'IT support' => 'IT support',
+            'IT Support' => 'IT Support',
             'Transportation' => 'Transportation',
-            'Library resources' => 'Library services',
+            'Library Resources' => 'Library Services',
         ];
-    
+
         // Retrieve the category name based on the ID
         $category = Category::find($validated['category_id']);
     

@@ -17,7 +17,7 @@
         </ul>
     </div>
 @endif
-    <h2 class="text-2xl font-bold mb-6">Submit a Complaint</h2>
+    <h2 class="text-2xl font-bold mb-6">Submit  Complaint</h2>
 
     <form action="{{ route('student.complaints.store') }}" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded shadow-md">
         @csrf
